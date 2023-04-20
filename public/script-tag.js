@@ -1,5 +1,5 @@
 
-let APIHOST = "https://remind-melatter.herokuapp.com";
+let APIHOST = "https://purchase-pal.herokuapp.com";
 
 function init(){
     let rooting = document.getElementsByTagName("body")[0];

@@ -1,4 +1,4 @@
-let path = "https://remindhero.herokuapp.com";
+let path = "https://purchase-pal.herokuapp.com";
 
 export const GETALLREMINDERS = ()=>{ return fetch(`${path}/reminders`,{
         method:"GET"
