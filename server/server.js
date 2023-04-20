@@ -35,7 +35,7 @@ MongoClient.connect("mongodb+srv://faizanj5070:SherlockH.1@purchasepal.aghlxby.m
   function exportAccessToken(accessToken) {
     console.log("function is called and Token Assigned To AccessTokenVariable.")
     accessTokenExport = accessToken;
-    client = new Shopify.Clients.Rest("illremindyou.myshopify.com", accessTokenExport);
+    client = new Shopify.Clients.Rest("jztech-dev-store.myshopify.com", accessTokenExport);
   }
 
 
@@ -384,7 +384,7 @@ MongoClient.connect("mongodb+srv://faizanj5070:SherlockH.1@purchasepal.aghlxby.m
       let reminders = await remind_col.aggregate([
         {
             '$match': {
-                'shop': 'illremindyou.myshopify.com'
+                'shop': 'jztech-dev-store.myshopify.com'
             }
         }, {
           '$group': {
